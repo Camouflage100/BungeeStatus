@@ -1,6 +1,6 @@
 <?php
 $back = "../";
-include $back . "/config.php";
+require $back . "/config.php";
 
 if (!isset($_POST["reason"]) && !isset($_POST["hash"]) && !isset($_POST["server"])) {
 	if (!isset($_GET["reason"]) && !isset($_GET["hash"]) && !isset($_GET["server"])) {
